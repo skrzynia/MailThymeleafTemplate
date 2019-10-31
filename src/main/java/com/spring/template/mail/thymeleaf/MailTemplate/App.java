@@ -30,7 +30,7 @@ public class App implements ApplicationRunner {
 
         Mail mail = new Mail();
         mail.setFrom("no-reply@wojtek.com");
-        mail.setTo("skrzynia777@gmail.com");
+        mail.setTo("");
         mail.setSubject("Sending email");
 
         Map model = new HashMap();
